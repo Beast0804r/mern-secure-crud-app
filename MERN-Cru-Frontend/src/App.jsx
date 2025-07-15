@@ -3,9 +3,9 @@ import AddUser from "./components/AddUser";
 import UserList from "./components/UserList";
 import axios from "axios";
 
-import Register from "./components/admin/register";
 import Login from "./components/admin/Login";
 
+import Register from "./components/admin/Register"
 import { jwtDecode } from "jwt-decode";
 
 import { ToastContainer, toast } from "react-toastify";
