@@ -1,16 +1,34 @@
-# mern-secure-crud-app
+# 🚀 MERN Secure CRUD Application with Docker
 
-A modern, full-stack CRUD application built using MongoDB, Express.js, React.js, and Node.js (MERN). It includes secure user authentication with JWT, token validation, role-based access control (optional), and features like:
+A modern, full-stack CRUD application built using **MongoDB**, **Express.js**, **React.js**, and **Node.js (MERN)**. It includes secure user authentication with **JWT**, middleware protection, and useful features like:
 
-✅ Secure login/register with token-based auth
+---
 
-📦 RESTful API using Express & MongoDB
+## ✅ Features
 
-🔐 Middleware-protected routes
+- 🔐 **Secure Login & Register** using JWT-based Authentication
+- 🧪 **Form Validation** with React Hook Form
+- 📦 **RESTful API** built using Express & MongoDB
+- 🧱 **Middleware-Protected Routes** for security
+- 🔍 Extensible for:
+  - 📂 File Uploads
+  - 🔢 Pagination
+  - 🔎 Search & Filtering
+- ⚙️ **Role-based access control** *(optional)*
 
-🧪 Form validation with React Hook Form
+---
 
-📂 Extensible for file upload, pagination, and filters
+## 🐳 Dockerized Development
 
-This project serves as a strong foundation for real-world MERN applications with authentication and CRUD operations.
+This project comes with a complete **Docker setup** for local and production use.
 
+### 🧰 Services
+
+- **Frontend**: React + Vite served using `serve`
+- **Backend**: Node.js + Express
+- **Database**: MongoDB (official Docker image)
+
+### 📦 Run All Services
+
+```bash
+docker compose up --build
